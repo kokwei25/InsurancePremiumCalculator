@@ -1,0 +1,170 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 141 ciObject found
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeNode <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)V 145 1 18 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeBin tieBreakOrder (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeBin <init> (Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)V 9 177 1 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeBin balanceInsertion (Ljava/util/concurrent/ConcurrentHashMap$TreeNode;Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)Ljava/util/concurrent/ConcurrentHashMap$TreeNode; 65 57 8 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeBin checkInvariants (Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)Z 0 0 1 0 -1
+ciMethodData java/util/concurrent/ConcurrentHashMap$TreeNode <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)V 1 18 orig 264 8 206 168 107 0 0 0 0 96 142 168 0 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x0 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap$TreeBin <init> (Ljava/util/concurrent/ConcurrentHashMap$TreeNode;)V 1 22 orig 264 8 206 168 107 0 0 0 0 56 158 168 0 0 0 0 0 48 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 224 2 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 92 0x60002 0x0 0x130007 0x0 0x270 0x0 0x1a0004 0x0 0x0 0x0 0x0 0x0 0x2a0007 0x0 0x38 0x0 0x390003 0x0 0x1e8 0x5f0007 0x0 0x38 0x0 0x650003 0x0 0xe0 0x6c0007 0x0 0x38 0x0 0x720003 0x0 0xa8 0x770007 0x0 0x50 0x0 0x7c0002 0x0 0x820007 0x0 0x50 0x0 0x8b0002 0x0 0x910007 0x0 0x30 0x0 0x980002 0x0 0xa30007 0x0 0x38 0x0 0xab0003 0x0 0x18 0xb60007 0x0 0x80 0x0 0xc10007 0x0 0x38 0x0 0xca0003 0x0 0x18 0xd50002 0x0 0xd90003 0x0 0x30 0xdc0003 0x0 0xfffffffffffffe48 0xe20003 0x0 0xfffffffffffffda8 0xed0007 0x0 0x60 0x0 0xf40002 0x0 0xf70007 0x0 0x30 0x0 0xfe0002 0x0 oops 0
+ciMethod java/lang/Object <init> ()V 4097 1 5622528 0 0
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe putObjectVolatile (Ljava/lang/Object;JLjava/lang/Object;)V 2049 1 256 0 -1
+ciMethod java/lang/Integer numberOfLeadingZeros (I)I 217 1 5731 0 -1
+ciMethodData java/lang/Object <init> ()V 2 5622535 orig 264 8 206 168 107 0 0 0 0 128 4 181 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 72 174 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/ConcurrentHashMap comparableClassFor (Ljava/lang/Object;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap compareComparables (Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2537 1 345937 0 64
+ciMethod java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 1953 1 37089 0 96
+ciMethod java/util/concurrent/ConcurrentHashMap setTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;)V 2497 1 44790 0 96
+ciMethod java/util/concurrent/ConcurrentHashMap resizeStamp (I)I 209 1 925 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap transfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;[Ljava/util/concurrent/ConcurrentHashMap$Node;)V 105 20961 480 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap untreeify (Ljava/util/concurrent/ConcurrentHashMap$Node;)Ljava/util/concurrent/ConcurrentHashMap$Node; 1 1 2 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;)V 2065 1 45249 0 96
+ciMethod java/util/concurrent/ConcurrentHashMap$ForwardingNode <init> ([Ljava/util/concurrent/ConcurrentHashMap$Node;)V 481 1 481 0 0
+ciMethodData java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2 345937 orig 264 8 206 168 107 0 0 0 0 0 215 206 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 1 0 0 161 48 42 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 14 0 0 0 0 0 data 12 0xe0005 0x55 0x0 0x0 0x0 0x0 0x110104 0x0 0x1c608c50 0x24ac1 0x1c60ef10 0x4b5f oops 2 8 java/util/concurrent/ConcurrentHashMap$Node 10 java/util/concurrent/ConcurrentHashMap$ForwardingNode
+ciMethodData java/util/concurrent/ConcurrentHashMap setTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;)V 2 44790 orig 264 8 206 168 107 0 0 0 0 80 216 206 21 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 1 0 0 241 109 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 15 0 0 0 0 0 data 6 0xf0005 0x2a 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;)V 2 45249 orig 264 8 206 168 107 0 0 0 0 80 120 207 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 249 125 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xafbf oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 2 37089 orig 264 8 206 168 107 0 0 0 0 168 215 206 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 0 0 0 105 127 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 16 0 0 0 0 0 data 6 0x100005 0x8a 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap resizeStamp (I)I 1 927 orig 264 8 206 168 107 0 0 0 0 0 8 207 21 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 0 0 0 41 28 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x385 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap transfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;[Ljava/util/concurrent/ConcurrentHashMap$Node;)V 2 150159 orig 264 8 206 168 107 0 0 0 0 80 18 207 21 0 0 0 0 216 9 0 0 88 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 10 0 0 153 14 0 0 193 1 18 0 237 0 0 0 160 160 1 0 2 0 0 0 4 0 97 0 2 0 0 0 112 8 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 270 0x70007 0x0 0x38 0x1d3 0x110003 0x1d3 0x18 0x1a0007 0x6 0x20 0x1cd 0x22e007 0x1 0x68 0x1d3 0x2b0004 0x0 0x1c608d00 0x30 0x0 0x0 0x330003 0x1d3 0x18 0x520002 0x1d4 0x650007 0x10bdb 0x150 0x10bdd 0x6f0007 0x100c5 0x40 0xb18 0x740007 0x94a 0x38 0x1ce 0x7a0003 0x10293 0xd8 0x840007 0x779 0x38 0x1d1 0x8d0003 0x1d1 0xa0 0x9d0007 0x1d0 0x38 0x5a9 0xa50003 0x5a9 0x18 0xac0005 0x2e8 0x0 0x0 0x0 0x0 0xaf0007 0x0 0x20 0x779 0xbf0003 0x10bdc 0xfffffffffffffec8 0xc40007 0x39f 0x60 0x1083b 0xca0007 0x0 0x40 0x1083b 0xd30007 0x1083b 0xd8 0x0 0xd80007 0x1d1 0x20 0x1ce 0x1030005 0x33 0x0 0x0 0x0 0x0 0x1060007 0x0 0x50 0x1d1 0x10e0002 0x1d1 0x1156007 0x1d1 0x20 0x1 0x1220003 0x1d1 0x538 0x1280002 0x1083b 0x12e0007 0xcc26 0x48 0x3c15 0x1370002 0x3c15 0x13c0003 0x3c15 0x4e0 0x1480007 0x49cc 0x38 0x825a 0x14e0003 0x825a 0x4a8 0x15a0002 0x49cc 0x15f0007 0x0 0x468 0x49cc 0x164e007 0x1 0x188 0x49cc 0x17a0007 0x49cc 0x58 0x1b7e 0x18a0007 0xe06 0x20 0xd78 0x19c0003 0x1b7e 0xffffffffffffffc0 0x1a10007 0x2436 0x38 0x2596 0x1ab0003 0x2596 0x18 0x1bd0007 0x49cc 0x90 0xebf 0x1d90007 0x73b 0x48 0x784 0x1e80002 0x784 0x1ed0003 0x784 0x28 0x1fc0002 0x73b 0x2080003 0xebf 0xffffffffffffff88 0x2100002 0x49cc 0x21a0002 0x49cc 0x2220002 0x49cc 0x2280003 0x49cb 0x2d8 0x22d0004 0x0 0x1c609820 0x1 0x0 0x0 0x2300007 0x0 0x290 0x1 0x2350004 0x0 0x1c609820 0x1 0x0 0x0 0x2550007 0x1 0xf0 0x9 0x2710002 0x9 0x27a0007 0x3 0x70 0x6 0x2850007 0x5 0x38 0x1 0x28c0003 0x1 0x18 0x29d0003 0x6 0x50 0x2a80007 0x2 0x38 0x1 0x2af0003 0x1 0x18 0x2c70003 0x9 0xffffffffffffff28 0x2ce0007 0x0 0x48 0x1 0x2d30002 0x1 0x2d60003 0x1 0x60 0x2db0007 0x0 0x48 0x0 0x2e40002 0x0 0x2e70003 0x0 0x18 0x2f20007 0x0 0x48 0x1 0x2f70002 0x1 0x2fa0003 0x1 0x60 0x2ff0007 0x0 0x48 0x0 0x3080002 0x0 0x30b0003 0x0 0x18 0x3170002 0x1 0x3210002 0x1 0x3290002 0x1 0x3320003 0x49cc 0x18 0x33d0003 0x10a0c 0xfffffffffffff878 oops 3 17 [Ljava/util/concurrent/ConcurrentHashMap$Node; 178 java/util/concurrent/ConcurrentHashMap$TreeBin 188 java/util/concurrent/ConcurrentHashMap$TreeBin
+ciMethodData java/util/concurrent/ConcurrentHashMap untreeify (Ljava/util/concurrent/ConcurrentHashMap$Node;)Ljava/util/concurrent/ConcurrentHashMap$Node; 1 8 orig 264 8 206 168 107 0 0 0 0 64 24 207 21 0 0 0 0 160 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 65 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 16 0x70007 0x2 0x80 0x9 0x1b0002 0x9 0x210007 0x7 0x38 0x2 0x270003 0x2 0x18 0x380003 0x9 0xffffffffffffff98 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap$ForwardingNode <init> ([Ljava/util/concurrent/ConcurrentHashMap$Node;)V 1 481 orig 264 8 206 168 107 0 0 0 0 64 145 221 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 0 0 0 41 13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x1a5 oops 0
+instanceKlass org/gradle/internal/serialize/CausePlaceholder
+instanceKlass org/gradle/internal/serialize/ExceptionPlaceholder$1
+instanceKlass org/gradle/internal/serialize/ExceptionReplacingObjectOutputStream$2
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$2
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$ChangeStyleAction
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$1
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$FailureDetails
+instanceKlass org/codehaus/groovy/runtime/StackTraceUtils
+instanceKlass org/gradle/internal/exceptions/Contextual
+instanceKlass org/gradle/internal/change/ChangeDetectorVisitor
+instanceKlass org/gradle/internal/execution/steps/CatchExceptionStep$1
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass org/gradle/tooling/internal/provider/events/DefaultFailure
+instanceKlass org/gradle/tooling/internal/protocol/InternalFailure
+instanceKlass java/rmi/server/Unreferenced
+instanceKlass org/jetbrains/kotlin/annotation/plugin/ide/DumpedPluginModel
+instanceKlass org/jetbrains/plugins/gradle/model/tests/DefaultExternalTestSourceMapping
+instanceKlass java/util/ArrayDeque$1
+instanceKlass com/android/build/gradle/internal/dependency/AarTransformUtil$$Lambda$704
+instanceKlass com/android/build/gradle/internal/dependency/AarTransformUtil
+instanceKlass com/android/build/gradle/internal/dependency/AarTransform$1
+instanceKlass com/android/builder/utils/ZipEntryUtils
+instanceKlass com/android/builder/aar/AarExtractor
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformOutputs$$Lambda$703
+instanceKlass org/gradle/internal/featurelifecycle/DefaultDeprecatedUsageProgressDetails
+instanceKlass org/gradle/internal/featurelifecycle/DeprecatedUsageProgressDetails
+instanceKlass com/android/build/gradle/internal/tasks/BlocksUtilsKt
+instanceKlass org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedEncoder$1
+instanceKlass org/jetbrains/kotlin/gradle/KotlinTaskPropertiesImpl
+instanceKlass org/jetbrains/kotlin/gradle/KotlinTaskProperties
+instanceKlass org/jetbrains/kotlin/gradle/KotlinTasksPropertyUtilsKt
+instanceKlass org/jetbrains/kotlin/gradle/ArgsInfoImpl
+instanceKlass org/jetbrains/kotlin/gradle/ArgsInfo
+instanceKlass org/objectweb/asm/Handle
+instanceKlass org/objectweb/asm/Label
+instanceKlass org/objectweb/asm/Frame
+instanceKlass org/objectweb/asm/Type
+instanceKlass org/objectweb/asm/Context
+instanceKlass org/objectweb/asm/Attribute
+instanceKlass org/objectweb/asm/signature/SignatureVisitor
+instanceKlass org/objectweb/asm/commons/Remapper
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapperImpl$Companion
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapperImpl
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapper
+instanceKlass org/objectweb/asm/Item
+instanceKlass org/objectweb/asm/ByteVector
+instanceKlass org/objectweb/asm/FieldVisitor
+instanceKlass org/objectweb/asm/MethodVisitor
+instanceKlass org/objectweb/asm/AnnotationVisitor
+instanceKlass org/objectweb/asm/ModuleVisitor
+instanceKlass org/objectweb/asm/ClassVisitor
+instanceKlass org/objectweb/asm/ClassReader
+instanceKlass com/android/tools/build/jetifier/core/type/PackageName$Companion
+instanceKlass com/android/tools/build/jetifier/core/type/PackageName
+instanceKlass com/android/tools/build/jetifier/processor/archive/ArchiveItem$DefaultImpls
+instanceKlass com/android/tools/build/jetifier/processor/transform/pom/PomScanner$PomScannerSession
+instanceKlass com/android/tools/build/jetifier/processor/transform/pom/PomScanner$Companion
+instanceKlass com/android/tools/build/jetifier/processor/transform/pom/PomScanner
+instanceKlass com/android/tools/build/jetifier/processor/archive/ArchiveFile
+instanceKlass kotlin/io/ByteStreamsKt
+instanceKlass com/android/tools/build/jetifier/processor/archive/Archive$Companion
+instanceKlass com/android/tools/build/jetifier/processor/archive/Archive
+instanceKlass com/android/tools/build/jetifier/processor/archive/ArchiveItem
+instanceKlass com/android/tools/build/jetifier/processor/archive/Archive$Builder
+instanceKlass com/android/tools/build/jetifier/processor/FileMapping
+instanceKlass java/util/zip/ZipOutputStream$XEntry
+instanceKlass kotlin/sequences/SequencesKt__SequencesKt$asSequence$$inlined$Sequence$1
+instanceKlass kotlin/collections/CollectionsKt__IteratorsJVMKt$iterator$1
+instanceKlass com/android/builder/packaging/JarMerger$$Lambda$702
+instanceKlass com/android/builder/packaging/JarMerger$$Lambda$701
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformOutputs$$Lambda$700
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformOutputs
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$699
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$698
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$InjectionPoint
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$697
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformerInvoker$TransformerExecution$$Lambda$696
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformerInvoker$TransformerExecution$$Lambda$695
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformerInvoker$TransformerExecution$$Lambda$694
+instanceKlass org/gradle/api/internal/artifacts/transform/TransformOutputsInternal
+instanceKlass com/android/build/gradle/internal/dependency/JetifyTransform$Companion
+instanceKlass org/gradle/internal/execution/steps/CleanupOutputsStep$1
+instanceKlass org/gradle/internal/execution/steps/CleanupOutputsStep$$Lambda$693
+instanceKlass org/gradle/internal/execution/history/changes/RebuildExecutionStateChanges
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolutionstrategy/DefaultCachePolicy$1
+instanceKlass org/gradle/internal/resource/ExternalResourceReadMetadataBuildOperationType$Details
+instanceKlass org/gradle/internal/resource/BuildOperationFiringExternalResourceDecorator$1
+instanceKlass org/gradle/api/internal/artifacts/repositories/metadata/DefaultMavenImmutableAttributesFactory$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/DownloadMetadataOperation
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/DependencyGraphBuilder$2
+instanceKlass org/gradle/internal/component/external/model/ivy/IvyModuleResolveMetadata
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/ModuleMetadataSerializer$Writer
+instanceKlass org/gradle/internal/resource/local/DefaultPathKeyFileStore$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/ModuleMetadataStore$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/PersistentModuleMetadataCache$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/CachingModuleComponentRepository$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/DefaultParseResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/MetaDataParser$ParseResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/data/MavenDependencyKey
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$PomDependencyMgtElement
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/MavenVersionUtils
+instanceKlass org/apache/ivy/core/settings/IvyVariableContainerImpl
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomDomParser
+instanceKlass org/w3c/dom/Entity
+instanceKlass com/sun/xml/internal/stream/StaxXMLInputSource
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$DTDDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLContentSpec
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/models/ContentModelValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/DTDGrammar
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/Grammar
+instanceKlass com/sun/org/apache/xerces/internal/impl/validation/EntityState
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/RootPomParent
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader$1
+instanceKlass org/apache/ivy/plugins/parser/m2/PomReader
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/parser/PomReader
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/ExternalResourceResolverDescriptorParseContext
+instanceKlass org/gradle/internal/resource/local/DefaultLocallyAvailableExternalResource
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/DefaultArtifactCacheLockingManager$CacheLockingPersistentCache$3
+instanceKlass org/gradle/internal/resource/cached/AbstractCachedIndex$2
+instanceKlass org/gradle/internal/resource/cached/DefaultCachedExternalResource
+instanceKlass org/gradle/internal/resource/local/DefaultPathKeyFileStore$2
+instanceKlass org/gradle/internal/resource/transfer/DefaultCacheAwareExternalResourceAccessor$3
+instanceKlass org/gradle/internal/resource/BuildOperationFiringExternalResourceDecorator$ReadOperationResult
+instanceKlass org/gradle/internal/resource/ExternalResourceReadBuildOperationType$Result
+instanceKlass org/apache/http/util/EntityUtils
+instanceKlass org/apache/http/client/utils/HttpClientUtils
+instanceKlass org/gradle/internal/resource/ExternalResourceReadResult
+instanceKlass org/apache/commons/io/IOUtils
+instanceKlass org/gradle/internal/resource/transfer/ResourceOperation
+instanceKlass org/gradle/internal/resource/transfer/ProgressLoggingExternalResourceAccessor$ProgressLoggingExternalResource
+instanceKlass sun/util/locale/provider/CalendarNameProviderImpl$LengthBasedComparator
+instanceK
